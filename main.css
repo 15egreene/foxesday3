@@ -1,0 +1,132 @@
+.container {
+    height: 900px;
+    width:375px;
+}
+
+
+#box1 {
+    background-color: white;
+    flex-direction:row;
+    border: black 1px solid;
+    margin: auto;
+}
+.signin {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: left column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  
+}
+
+.signin1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-bottom: 0%;
+}
+
+.textbox {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+
+.textbox1 {
+    width: 300px;
+    margin-bottom: 10px;
+    
+}
+#continue-box:hover {
+    box-shadow: 0 0 10px orange;
+}
+
+.textbox2 {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+#create:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.words {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.words1 {
+    text-align: left;
+    padding-left: 30px;
+}
+a:hover {
+    color: darkgoldenrod;
+}
+button.textbox2 {
+    color: black;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#dropdown {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mytextdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 342px;
+    margin: auto;
+}
+
+.mytexttitle {
+    flex-grow: 0;
+    color: #9f9f9f;
+}
+
+.divider {
+    flex-grow: 1;
+    height: 2px;
+    background-color: silver;
+    
+}
+
+.divider1 {
+    box-sizing: border-box;
+    height: 1px;
+    border-width: 5px;
+    padding-bottom: auto;
+    border-top: 3px outset silver;
+    margin-top: -460px;   
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: nowrap;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
